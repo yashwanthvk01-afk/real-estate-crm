@@ -1,0 +1,11 @@
+@tailwind base;
+/* ↑ Browser default styles reset చేస్తుంది
+   (margins, paddings, font sizes అన్నీ) */
+
+@tailwind components;
+/* ↑ Tailwind component classes load అవుతాయి */
+
+@tailwind utilities;
+/* ↑ bg-blue-500, text-white, p-4 లాంటి
+   utility classes load అవుతాయి
+   మనం వాడే classes అన్నీ ఇక్కడ నుండి వస్తాయి */
